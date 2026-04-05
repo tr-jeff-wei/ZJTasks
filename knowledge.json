@@ -148,13 +148,13 @@
       "level": "intermediate"
     },
     {
-      "id": "array",
-      "label": "array1D",
+      "id": "array1D",
+      "label": "1D陣列/清單",
       "group": "intermediate",
       "difficulty": 1,
       "description": "最基本的線性資料結構，可用索引快速存取。走訪陣列、搜尋元素、最大最小值等都是常見操作。",
       "keywords": [
-        "array",
+        "array1D",
         "list",
         "index"
       ],
@@ -169,7 +169,7 @@
       "level": "intermediate"
     },{
       "id": "array2D",
-      "label": "array2D",
+      "label": "2D陣列/矩陣",
       "group": "intermediate",
       "difficulty": 1,
       "description": "二維陣列，常用於棋盤、圖像等問題。走訪矩陣、搜尋元素、最大最小值等都是常見操作。",
@@ -617,7 +617,7 @@
     },
     {
       "from": "basic_ops",
-      "to": "array",
+      "to": "array1D",
       "relation": "related_to"
     },
     {
@@ -626,17 +626,17 @@
       "relation": "contains"
     },
     {
-      "from": "array",
+      "from": "array1D",
       "to": "sorting",
       "relation": "contains"
     },
     {
-      "from": "array",
+      "from": "array1D",
       "to": "binary_search",
       "relation": "contains"
     },
         {
-      "from": "array",
+      "from": "array1D",
       "to": "prefix_sum",
       "relation": "contains"
     },
@@ -645,7 +645,7 @@
       "to": "binary_search",
       "relation": "related_to"
     } ,    {
-      "from": "array",
+      "from": "array1D",
       "to": "array2D",
       "relation": "related_to"
     } ,{

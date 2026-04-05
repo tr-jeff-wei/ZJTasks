@@ -30,6 +30,8 @@ async function init() {
   allNodes = rawData.nodes.map(node => ({
     ...node,
     ...groupStyles[node.group],
+    label: `${node.label} (${getListNum(node.id, node.label)})`,
+    pNums: getListNum(node.id, node.label),
     font: { color: "#e2e8f0", size: 18, face: "Noto Sans TC" },
     borderWidth: 2
   }));
@@ -151,6 +153,8 @@ function filterGraph(keyword, level) {
   const styledNodes = filteredNodes.map(node => ({
     ...node,
     ...groupStyles[node.group],
+    label: `${node.label} (${getListNum(node.id, node.label)})`,
+    pNums: getListNum(node.id, node.label),
     font: { color: "#e2e8f0", size: 18, face: "Noto Sans TC" },
     borderWidth: 2
   }));
@@ -202,7 +206,7 @@ function showNodeInfo(nodeId) {
   document.getElementById("nodeDescription").textContent = node.description || "無說明";
 
   renderChips("nodeKeywords", node.keywords || []);
-  renderList("nodeExamples" , node.label);
+  renderList("nodeExamples" ,nodeId ,  node.label);
   // renderRelations(nodeId);
 }
 
@@ -223,17 +227,25 @@ function renderChips(containerId, items) {
   });
 }
 
-function renderList(containerId , nodeLabel) {
+function getListNum(nodeId , nodeLabel) {
+  // 取出 tasks.json 中的 tags 欄位，並找出包含 nodeLabel 的範例
+  const items = tasksData.filter(task => task.tags && 
+    (task.tags.includes(nodeLabel) || task.tags.includes(nodeId)));
+  return items.length;
+}
+
+function renderList(containerId , nodeId , nodeLabel) {
   const container = document.getElementById(containerId);
   container.innerHTML = "";
 
   // 取出 tasks.json 中的 tags 欄位，並找出包含 nodeLabel 的範例
-  const items = tasksData.filter(task => task.tags && task.tags.includes(nodeLabel))
+  const items = tasksData.filter(task => task.tags && (task.tags.includes(nodeLabel) || task.tags.includes(nodeId)))
     .map(task => ({ 
       id: task.id,
       title: task.title, 
       link: `https://zerojudge.tw/ShowProblem?problemid=${task.id}`,
-      difficulty: task.difficulty 
+      difficulty: task.difficulty,
+      tags: task.tags
     }));
 
   if (!items.length) {
@@ -248,7 +260,7 @@ function renderList(containerId , nodeLabel) {
   const thead = document.createElement("thead");
   const headerRow = document.createElement("tr");
   
-  const headers = ["題號", "題目", "難度"];
+  const headers = ["題號", "題目", "難度", "標籤"];
   headers.forEach(headerText => {
     const th = document.createElement("th");
     th.textContent = headerText;
@@ -283,6 +295,10 @@ function renderList(containerId , nodeLabel) {
     difficultyCell.textContent = item.difficulty;
     difficultyCell.className = `difficulty-${item.difficulty.toLowerCase()}`;
     row.appendChild(difficultyCell);
+
+    const tagsCell = document.createElement("td");
+    tagsCell.textContent = item.tags.join(", ");
+    row.appendChild(tagsCell);
 
     tbody.appendChild(row);
   });
@@ -331,6 +347,10 @@ function sortExamplesTable(table, items, containerId) {
     difficultyCell.textContent = item.difficulty;
     difficultyCell.className = `difficulty-${item.difficulty.toLowerCase()}`;
     row.appendChild(difficultyCell);
+
+    const tagsCell = document.createElement("td");
+    tagsCell.textContent = item.tags.join(", ");
+    row.appendChild(tagsCell);
 
     tbody.appendChild(row);
   });
