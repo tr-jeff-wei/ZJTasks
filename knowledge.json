@@ -149,7 +149,7 @@
     },
     {
       "id": "array",
-      "label": "1D 陣列/清單",
+      "label": "array1D",
       "group": "intermediate",
       "difficulty": 1,
       "description": "最基本的線性資料結構，可用索引快速存取。走訪陣列、搜尋元素、最大最小值等都是常見操作。",
@@ -169,7 +169,7 @@
       "level": "intermediate"
     },{
       "id": "array2D",
-      "label": "2D 陣列/矩陣",
+      "label": "array2D",
       "group": "intermediate",
       "difficulty": 1,
       "description": "二維陣列，常用於棋盤、圖像等問題。走訪矩陣、搜尋元素、最大最小值等都是常見操作。",
