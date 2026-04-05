@@ -1,0 +1,685 @@
+{
+  "nodes": [
+    {
+      "id": "input_output",
+      "label": "輸入輸出",
+      "group": "basic",
+      "difficulty": 0,
+      "description": "學習如何在程式中讀取輸入與輸出結果，是解題的第一步。",
+      "keywords": [
+        "input",
+        "output",
+        "print",
+        "read"
+      ],
+      "examples": [],
+      "resources": [],
+      "level": "beginner"
+    },
+    {
+      "id": "variables",
+      "label": "變數",
+      "group": "basic",
+      "difficulty": 0,
+      "description": "學習如何使用變數來儲存和操作資料。",
+      "keywords": [
+        "variable",
+        "data",
+        "store"
+      ],
+      "examples": [
+        "x = 5",
+        "name = 'Alice'"
+      ],
+      "resources": [],
+      "level": "beginner"
+    },
+    {
+      "id": "string",
+      "label": "字串處理",
+      "group": "basic",
+      "difficulty": 0,
+      "description": "學習如何使用字串來儲存和操作文字資料。字元走訪、ASCII、字串連接、切片、比對",
+      "keywords": [
+        "string",
+        "text",
+        "manipulation"
+      ],
+      "examples": [
+        "greeting = 'Hello, World!'",
+        "name = 'Alice'"
+      ],
+      "resources": [],
+      "level": "beginner"
+    },
+    {
+      "id": "math_operations",
+      "label": "數值運算",
+      "group": "basic",
+      "difficulty": 0,
+      "description": "學習基本的數值運算符號與優先順序。",
+      "keywords": [
+        "math",
+        "operations",
+        "+",
+        "-",
+        "*",
+        "/",
+        "%"
+      ],
+      "examples": [
+        "3 + 5",
+        "10 * (2 + 3)"
+      ],
+      "resources": [],
+      "level": "beginner"
+    },
+    {
+      "id": "if_else",
+      "label": "if/else 控制流程",
+      "group": "basic",
+      "difficulty": 0,
+      "description": "使用 if / else 控制程式執行流程。",
+      "keywords": [
+        "if",
+        "else",
+        "elif",
+        "condition"
+      ],
+      "examples": [
+        "if x > 0: print('positive') else: print('non-positive')"
+      ],
+      "resources": [],
+      "level": "beginner"
+    },
+    {
+      "id": "loops",
+      "label": "迴圈",
+      "group": "basic",
+      "difficulty": 0,
+      "description": "使用 for 或 while 迴圈重複執行程式碼區塊。",
+      "keywords": [
+        "for",
+        "while",
+        "loop"
+      ],
+      "examples": [
+        "for i in range(5): print(i)",
+        "while x > 0: x -= 1"
+      ],
+      "resources": [],
+      "level": "beginner"
+    },
+    {
+      "id": "basic_ops",
+      "label": "基礎運算",
+      "group": "basic",
+      "difficulty": 0,
+      "description": "基本的資料運算與流程控制。",
+      "keywords": [
+        "input/output",
+        "if-else condition",
+        "loop",
+        "string manipulation",
+        "math operations"
+      ],
+      "examples": [
+      ],
+      "resources": [],
+      "level": "beginner"
+    },
+    {
+      "id": "complexity",
+      "label": "複雜度分析",
+      "group": "category",
+      "difficulty": 1,
+      "description": "分析演算法的時間與空間效率。",
+      "keywords": [
+        "Big-O",
+        "time complexity",
+        "space complexity"
+      ],
+      "examples": [
+        "O(n)",
+        "O(log n)",
+        "O(n^2)"
+      ],
+      "resources": [],
+      "level": "intermediate"
+    },
+    {
+      "id": "array",
+      "label": "1D 陣列/清單",
+      "group": "intermediate",
+      "difficulty": 1,
+      "description": "最基本的線性資料結構，可用索引快速存取。走訪陣列、搜尋元素、最大最小值等都是常見操作。",
+      "keywords": [
+        "array",
+        "list",
+        "index"
+      ],
+      "examples": [
+        "nums[0]",
+        "走訪陣列",
+        "搜尋元素",
+        "最大最小值",
+        "數量統計"
+      ],
+      "resources": [],
+      "level": "intermediate"
+    },{
+      "id": "array2D",
+      "label": "2D 陣列/矩陣",
+      "group": "intermediate",
+      "difficulty": 1,
+      "description": "二維陣列，常用於棋盤、圖像等問題。走訪矩陣、搜尋元素、最大最小值等都是常見操作。",
+      "keywords": [
+        "2darray",
+        "matrix","dfs","bfs"
+      ],
+      "examples": [
+        "走訪陣列",
+        "搜尋元素",
+        "最大最小值",
+        "數量統計"
+      ],
+      "resources": [],
+      "level": "intermediate"
+    },
+
+    {
+      "id": "stack",
+      "label": "Stack",
+      "group": "data_structure",
+      "difficulty": 1,
+      "description": "後進先出（LIFO）的資料結構。",
+      "keywords": [
+        "stack",
+        "LIFO"
+      ],
+      "examples": [
+        "括號匹配",
+        "Undo"
+      ],
+      "resources": [],
+      "level": "beginner"
+    },
+    {
+      "id": "queue",
+      "label": "Queue",
+      "group": "data_structure",
+      "difficulty": 1,
+      "description": "先進先出（FIFO）的資料結構。",
+      "keywords": [
+        "queue",
+        "FIFO"
+      ],
+      "examples": [
+        "排隊模擬",
+        "BFS"
+      ],
+      "resources": [],
+      "level": "beginner"
+    },
+    {
+      "id": "set_map",
+      "label": "Set / Map",
+      "group": "data_structure",
+      "difficulty": 2,
+      "description": "用於快速查詢、去重與次數統計。",
+      "keywords": [
+        "set",
+        "map",
+        "dictionary",
+        "hash"
+      ],
+      "examples": [
+        "次數統計",
+        "判斷是否出現過"
+      ],
+      "resources": [],
+      "level": "intermediate"
+    },
+    {
+      "id": "heap",
+      "label": "Heap / Priority Queue",
+      "group": "data_structure",
+      "difficulty": 2,
+      "description": "快速取得目前最小值或最大值的資料結構。",
+      "keywords": [
+        "heap",
+        "priority queue"
+      ],
+      "examples": [
+        "Top K",
+        "Dijkstra"
+      ],
+      "resources": [],
+      "level": "intermediate"
+    },
+    {
+      "id": "recursion",
+      "label": "遞迴",
+      "group": "intermediate",
+      "difficulty": 2,
+      "description": "將問題縮小成同類型子問題，並設計 base case。",
+      "keywords": [
+        "recursion",
+        "base case"
+      ],
+      "examples": [
+        "費波那契",
+        "樹走訪"
+      ],
+      "resources": [],
+      "level": "intermediate"
+    },
+    {
+      "id": "divide_and_conquer",
+      "label": "分治法",
+      "group": "strategy",
+      "difficulty": 2,
+      "description": "將問題切分成幾塊分別解決後再合併。",
+      "keywords": [
+        "divide",
+        "merge"
+      ],
+      "examples": [
+        "Merge Sort",
+        "Binary Search"
+      ],
+      "resources": [],
+      "level": "intermediate"
+    },
+    {
+      "id": "problem_solving",
+      "label": "解題技巧",
+      "group": "category",
+      "difficulty": 2,
+      "description": "常見且高頻的演算法解題技巧。",
+      "keywords": [
+        "prefix sum",
+        "two pointers",
+        "sliding window"
+      ],
+      "examples": [
+        "前綴和",
+        "雙指標",
+        "滑動視窗"
+      ],
+      "resources": [],
+      "level": "intermediate"
+    },
+    {
+      "id": "sorting",
+      "label": "Sorting",
+      "group": "algorithm",
+      "difficulty": 1,
+      "description": "將資料依照某種順序排列，常用來簡化後續問題。",
+      "keywords": [
+        "sort",
+        "order"
+      ],
+      "examples": [
+        "Bubble Sort",
+        "Merge Sort"
+      ],
+      "resources": [],
+      "level": "beginner"
+    },
+    {
+      "id": "binary_search",
+      "label": "Binary Search",
+      "group": "algorithm",
+      "difficulty": 2,
+      "description": "在有序資料中每次砍半搜尋，大幅提升效率。",
+      "keywords": [
+        "binary search",
+        "sorted",
+        "log n"
+      ],
+      "examples": [
+        "找數值",
+        "找邊界",
+        "答案二分"
+      ],
+      "resources": [],
+      "level": "intermediate"
+    },
+    {
+      "id": "prefix_sum",
+      "label": "Prefix Sum",
+      "group": "technique",
+      "difficulty": 2,
+      "description": "預先累積總和，讓區間和查詢更快。",
+      "keywords": [
+        "prefix sum",
+        "range sum"
+      ],
+      "examples": [
+        "區間加總",
+        "子陣列和"
+      ],
+      "resources": [],
+      "level": "intermediate"
+    },
+    {
+      "id": "two_pointers",
+      "label": "Two Pointers",
+      "group": "technique",
+      "difficulty": 2,
+      "description": "使用兩個指標控制區間或進行夾逼。",
+      "keywords": [
+        "two pointers",
+        "left",
+        "right"
+      ],
+      "examples": [
+        "兩數和",
+        "移除重複"
+      ],
+      "resources": [],
+      "level": "intermediate"
+    },
+    {
+      "id": "sliding_window",
+      "label": "Sliding Window",
+      "group": "technique",
+      "difficulty": 2,
+      "description": "維持一段連續區間，常用於字串與子陣列問題。",
+      "keywords": [
+        "window",
+        "substring",
+        "subarray"
+      ],
+      "examples": [
+        "最長不重複子字串"
+      ],
+      "resources": [],
+      "level": "intermediate"
+    },
+    {
+      "id": "greedy",
+      "label": "Greedy",
+      "group": "strategy",
+      "difficulty": 3,
+      "description": "每一步都做當下最好的選擇，希望得到整體最佳解。",
+      "keywords": [
+        "greedy",
+        "local optimum"
+      ],
+      "examples": [
+        "活動安排",
+        "區間選擇"
+      ],
+      "resources": [],
+      "level": "intermediate"
+    },
+    {
+      "id": "tree_graph",
+      "label": "樹與圖",
+      "group": "category",
+      "difficulty": 2,
+      "description": "進階演算法中非常重要的資料模型。",
+      "keywords": [
+        "tree",
+        "graph",
+        "dfs",
+        "bfs"
+      ],
+      "examples": [
+        "樹走訪",
+        "圖搜尋"
+      ],
+      "resources": [],
+      "level": "intermediate"
+    },
+    {
+      "id": "tree",
+      "label": "Tree",
+      "group": "data_structure",
+      "difficulty": 2,
+      "description": "具有父子層級關係的資料結構。",
+      "keywords": [
+        "tree",
+        "root",
+        "leaf"
+      ],
+      "examples": [
+        "Binary Tree",
+        "BST"
+      ],
+      "resources": [],
+      "level": "intermediate"
+    },
+    {
+      "id": "graph",
+      "label": "Graph",
+      "group": "data_structure",
+      "difficulty": 2,
+      "description": "由節點與邊構成，可表示關係與路徑。",
+      "keywords": [
+        "graph",
+        "node",
+        "edge"
+      ],
+      "examples": [
+        "社交關係",
+        "地圖路徑"
+      ],
+      "resources": [],
+      "level": "intermediate"
+    },
+    {
+      "id": "dfs",
+      "label": "DFS",
+      "group": "algorithm",
+      "difficulty": 2,
+      "description": "深度優先搜尋，通常走到底再回來。",
+      "keywords": [
+        "dfs",
+        "stack",
+        "recursion"
+      ],
+      "examples": [
+        "迷宮",
+        "連通塊"
+      ],
+      "resources": [],
+      "level": "intermediate"
+    },
+    {
+      "id": "bfs",
+      "label": "BFS",
+      "group": "algorithm",
+      "difficulty": 2,
+      "description": "廣度優先搜尋，一層一層向外擴展。",
+      "keywords": [
+        "bfs",
+        "queue",
+        "shortest path"
+      ],
+      "examples": [
+        "最短步數",
+        "無權圖最短路"
+      ],
+      "resources": [],
+      "level": "intermediate"
+    },
+    {
+      "id": "union_find",
+      "label": "Union-Find",
+      "group": "algorithm",
+      "difficulty": 3,
+      "description": "快速管理節點是否屬於同一集合。",
+      "keywords": [
+        "disjoint set",
+        "union find"
+      ],
+      "examples": [
+        "朋友圈",
+        "連通性"
+      ],
+      "resources": [],
+      "level": "advanced"
+    },
+    {
+      "id": "topological_sort",
+      "label": "Topological Sort",
+      "group": "algorithm",
+      "difficulty": 3,
+      "description": "處理有依賴順序的 DAG 問題。",
+      "keywords": [
+        "DAG",
+        "dependency"
+      ],
+      "examples": [
+        "課程先修",
+        "任務排程"
+      ],
+      "resources": [],
+      "level": "advanced"
+    },
+    {
+      "id": "dp",
+      "label": "Dynamic Programming",
+      "group": "category",
+      "difficulty": 3,
+      "description": "將重複子問題記錄起來，避免重算。",
+      "keywords": [
+        "dp",
+        "memoization",
+        "tabulation"
+      ],
+      "examples": [
+        "爬樓梯",
+        "背包問題",
+        "LCS"
+      ],
+      "resources": [],
+      "level": "advanced"
+    },
+    {
+      "id": "dijkstra",
+      "label": "Dijkstra最短路徑",
+      "group": "algorithm",
+      "difficulty": 4,
+      "description": "求正權重圖中單源最短路徑的經典演算法。",
+      "keywords": [
+        "shortest path",
+        "priority queue"
+      ],
+      "examples": [
+        "導航路徑"
+      ],
+      "resources": [],
+      "level": "advanced"
+    },
+    {
+      "id": "mst",
+      "label": "Minimum Spanning Tree",
+      "group": "algorithm",
+      "difficulty": 4,
+      "description": "在圖中選出最小成本連接所有點的邊。",
+      "keywords": [
+        "mst",
+        "kruskal",
+        "prim"
+      ],
+      "examples": [
+        "網路鋪設",
+        "道路建設"
+      ],
+      "resources": [],
+      "level": "advanced"
+    }
+  ],
+  "edges": [
+    {
+      "from": "input_output",
+      "to": "basic_ops",
+      "relation": "related_to"
+    },
+    {
+      "from": "math_operations",
+      "to": "basic_ops",
+      "relation": "related_to"
+    },
+    {
+      "from": "string",
+      "to": "basic_ops",
+      "relation": "related_to"
+    },
+    {
+      "from": "basic_ops",
+      "to": "if_else",
+      "relation": "contains"
+    },
+    {
+      "from": "basic_ops",
+      "to": "array",
+      "relation": "related_to"
+    },
+    {
+      "from": "basic_ops",
+      "to": "loops",
+      "relation": "contains"
+    },
+    {
+      "from": "array",
+      "to": "sorting",
+      "relation": "contains"
+    },
+    {
+      "from": "array",
+      "to": "binary_search",
+      "relation": "contains"
+    },
+        {
+      "from": "array",
+      "to": "prefix_sum",
+      "relation": "contains"
+    },
+    {
+      "from": "sorting",
+      "to": "binary_search",
+      "relation": "related_to"
+    } ,    {
+      "from": "array",
+      "to": "array2D",
+      "relation": "related_to"
+    } ,{
+      "from":"basic_ops",
+      "to":"recursion",
+      "relation":"related_to"
+    },{
+      "from":"dfs",
+      "to":"recursion",
+      "relation":"related_to"
+    },{
+      "from":"dfs",
+      "to":"array2D",
+      "relation":"related_to"
+    },{
+      "from":"recursion",
+      "to":"array2D",
+      "relation":"related_to"
+    },{
+      "from":"array2D",
+      "to":"bfs",
+      "relation":"related_to"
+    },{
+      "from":"stack",
+      "to":"dfs",
+      "relation":"related_to"
+    },{
+      "from":"stack",
+      "to":"recursion",
+      "relation":"related_to"
+    },{
+      "from":"queue",
+      "to":"bfs",
+      "relation":"related_to"
+    }
+  ]
+}

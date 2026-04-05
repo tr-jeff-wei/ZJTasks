@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans TC", "Segoe UI", sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.topbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px 24px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  background: linear-gradient(135deg, #111827, #0f172a);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.title-area h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.title-area p {
+  margin: 6px 0 0;
+  color: #94a3b8;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.controls input,
+.controls select,
+.controls button {
+  border: none;
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-size: 14px;
+}
+
+.controls input,
+.controls select {
+  background: #1e293b;
+  color: #e2e8f0;
+  min-width: 220px;
+}
+
+.controls button {
+  background: #38bdf8;
+  color: #082f49;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.controls button:hover {
+  transform: translateY(-1px);
+  opacity: 0.95;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1.6fr 0.9fr;
+  gap: 18px;
+  padding: 18px;
+  height: calc(100vh - 98px);
+}
+
+.graph-panel,
+.info-panel {
+  min-height: 0;
+}
+
+#network {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at top left, #13203d, #0b1220);
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.06);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+.info-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow: auto;
+}
+
+.card {
+  background: rgba(15, 23, 42, 0.92);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.18);
+}
+
+.card h2,
+.card h3 {
+  margin-top: 0;
+}
+
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 16px;
+}
+
+.badge {
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: #1e293b;
+  color: #cbd5e1;
+  font-size: 13px;
+}
+
+.description {
+  line-height: 1.75;
+  color: #dbeafe;
+}
+
+.section {
+  margin-top: 18px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: #1d4ed8;
+  color: white;
+  font-size: 13px;
+}
+
+ul {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+#nodeExamples li a{
+  color: #FCD34D;
+}
+
+.examples-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0;
+}
+
+.examples-table thead {
+  background: rgba(30, 41, 59, 0.8);
+}
+
+.examples-table th {
+  padding: 10px 8px;
+  text-align: left;
+  font-weight: 600;
+  color: #cbd5e1;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  user-select: none;
+}
+
+.examples-table th:hover:not(:first-child) {
+  background: rgba(51, 65, 85, 0.85);
+}
+
+.examples-table td {
+  padding: 10px 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  color: #e2e8f0;
+}
+
+.examples-table tbody tr:hover {
+  background: rgba(71, 85, 105, 0.3);
+}
+
+.examples-table a {
+  color: #FCD34D;
+  text-decoration: none;
+}
+
+.examples-table a:hover {
+  text-decoration: underline;
+  color: #fef08a;
+}
+
+.difficulty-easy {
+  color: #86efac;
+}
+
+.difficulty-medium {
+  color: #fbbf24;
+}
+
+.difficulty-hard {
+  color: #f87171;
+}
+
+.legend-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.dot.root { background: #f59e0b; }
+.dot.category { background: #22c55e; }
+.dot.concept { background: #38bdf8; }
+.dot.data_structure { background: #8b5cf6; }
+.dot.strategy { background: #f97316; }
+.dot.algorithm { background: #ef4444; }
+.dot.technique { background: #14b8a6; }
+
+@media (max-width: 1100px) {
+  .layout {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .graph-panel {
+    height: 65vh;
+  }
+
+  .info-panel {
+    overflow: visible;
+  }
+}

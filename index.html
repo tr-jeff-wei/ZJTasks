@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZJ演算法知識圖網站</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- vis-network -->
+  <script
+    type="text/javascript"
+    src="https://unpkg.com/vis-network@9.1.9/dist/vis-network.min.js">
+  </script>
+  <link
+    href="https://unpkg.com/vis-network@9.1.9/dist/dist/vis-network.min.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+</head>
+<body>
+  <header class="topbar">
+    <div class="title-area">
+      <h1>🌳 演算法互動式知識圖</h1>
+      <p>點擊節點查看說明、關聯與學習路線</p>
+    </div>
+
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="搜尋概念，例如 BFS、DP、Binary Search..." />
+
+      <select id="levelFilter">
+        <option value="all">全部難度</option>
+        <option value="beginner">初學</option>
+        <option value="intermediate">中階</option>
+        <option value="advanced">進階</option>
+      </select>
+
+      <button id="resetBtn">重置視圖</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="graph-panel">
+      <div id="network"></div>
+    </section>
+
+    <aside class="info-panel">
+      <div class="card">
+        <h2 id="nodeTitle">請點選一個節點</h2>
+        <div class="meta-row">
+          <span id="nodeGroup" class="badge">-</span>
+          <span id="nodeDifficulty" class="badge difficulty">難度 -</span>
+          <span id="nodeLevel" class="badge level">層級 -</span>
+        </div>
+
+        <p id="nodeDescription" class="description">
+          這裡會顯示節點說明、關鍵字、範例與相關概念。
+        </p>
+
+        <div class="section">
+          <h3>關鍵字</h3>
+          <div id="nodeKeywords" class="chips"></div>
+        </div>
+
+       
+
+        
+      </div>
+
+      <div class="legend card">
+         <div class="section">          
+          <ul id="nodeExamples"></ul>
+        </div>
+        
+      </div>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

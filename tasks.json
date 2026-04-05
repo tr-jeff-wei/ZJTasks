@@ -1,0 +1,592 @@
+{
+  "a001": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出"
+    ],
+    "timestamp": "2026-04-03T07:23:38.247Z",
+    "title": "哈囉"
+  },
+  "a002": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-03T07:23:43.185Z",
+    "title": "簡易加法"
+  },
+  "a003": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出",
+      "if-else",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-03T07:23:47.869Z",
+    "title": "兩光法師占卜術"
+  },
+  "a004": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出",
+      "數值運算",
+      "if-else"
+    ],
+    "timestamp": "2026-04-03T07:23:52.134Z",
+    "title": "文文的求婚"
+  },
+  "a005": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出",
+      "數值運算",
+      "if-else"
+    ],
+    "timestamp": "2026-04-03T07:23:57.568Z",
+    "title": "Eva 的回家作業"
+  },
+  "a006": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出",
+      "if-else",
+      "數值運算",
+      "國中數學"
+    ],
+    "timestamp": "2026-04-03T07:24:01.231Z",
+    "title": "一元二次方程式"
+  },
+  "a009": {
+    "difficulty": "Medium",
+    "tags": [
+      "輸入輸出",
+      "字串處理"
+    ],
+    "timestamp": "2026-04-03T07:24:05.484Z",
+    "title": "解碼器"
+  },
+  "a010": {
+    "difficulty": "Medium",
+    "tags": [
+      "輸入輸出",
+      "數值運算",
+      "國中數學",
+      "迴圈",
+      "遞迴"
+    ],
+    "timestamp": "2026-04-03T07:24:08.870Z",
+    "title": "因數分解"
+  },
+  "a015": {
+    "difficulty": "Medium",
+    "tags": [
+      "array2D"
+    ],
+    "timestamp": "2026-04-03T07:24:11.704Z",
+    "title": "矩陣的翻轉"
+  },
+  "a017": {
+    "difficulty": "Medium",
+    "tags": [
+      "遞迴",
+      "字串處理"
+    ],
+    "timestamp": "2026-04-03T13:02:45.197Z",
+    "title": "五則運算"
+  },
+  "a020": {
+    "difficulty": "Medium",
+    "tags": [
+      "字串處理"
+    ],
+    "timestamp": "2026-04-03T13:03:47.127Z",
+    "title": "身分證檢驗"
+  },
+  "a021": {
+    "difficulty": "Medium",
+    "tags": [
+      "數值運算",
+      "字串處理"
+    ],
+    "timestamp": "2026-04-03T13:06:32.036Z",
+    "title": "大數運算"
+  },
+  "a022": {
+    "difficulty": "Medium",
+    "tags": [
+      "字串處理"
+    ],
+    "timestamp": "2026-04-03T13:07:31.639Z",
+    "title": "迴文"
+  },
+  "a024": {
+    "difficulty": "Easy",
+    "tags": [
+      "數值運算",
+      "國中數學"
+    ],
+    "timestamp": "2026-04-03T13:08:30.943Z",
+    "title": "最大公因數(GCD)"
+  },
+  "a034": {
+    "difficulty": "Easy",
+    "tags": [
+      "數值運算",
+      "國中數學"
+    ],
+    "timestamp": "2026-04-03T13:10:16.159Z",
+    "title": "二進位制轉換"
+  },
+  "a038": {
+    "difficulty": "Easy",
+    "tags": [
+      "數值運算",
+      "字串處理"
+    ],
+    "timestamp": "2026-04-03T13:11:21.734Z",
+    "title": "數字翻轉"
+  },
+  "a040": {
+    "difficulty": "Easy",
+    "tags": [
+      "迴圈",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-03T13:13:37.606Z",
+    "title": "阿姆斯壯數"
+  },
+  "a042": {
+    "difficulty": "Easy",
+    "tags": [
+      "國中數學",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-03T13:15:09.562Z",
+    "title": "平面圓形切割"
+  },
+  "a044": {
+    "difficulty": "Easy",
+    "tags": [
+      "國中數學",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-03T13:15:49.416Z",
+    "title": "空間切割"
+  },
+  "a053": {
+    "difficulty": "Easy",
+    "tags": [
+      "數值運算",
+      "if-else"
+    ],
+    "timestamp": "2026-04-03T13:16:40.541Z",
+    "title": "Sagit's 計分程式"
+  },
+  "a054": {
+    "difficulty": "Medium",
+    "tags": [
+      "字串處理",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-03T13:45:25.600Z",
+    "title": "電話客服中心"
+  },
+  "a058": {
+    "difficulty": "Easy",
+    "tags": [
+      "迴圈",
+      "if-else",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-03T13:46:48.436Z",
+    "title": "MOD3"
+  },
+  "a059": {
+    "difficulty": "Easy",
+    "tags": [
+      "迴圈",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-03T13:49:16.663Z",
+    "title": "完全平方和"
+  },
+  "a065": {
+    "difficulty": "Medium",
+    "tags": [
+      "字串處理"
+    ],
+    "timestamp": "2026-04-03T13:51:46.466Z",
+    "title": "提款卡密碼"
+  },
+  "a104": {
+    "difficulty": "Medium",
+    "tags": [
+      "數值運算",
+      "array1D",
+      "迴圈",
+      "排序"
+    ],
+    "timestamp": "2026-04-03T13:57:27.169Z",
+    "title": "排序"
+  },
+  "a121": {
+    "difficulty": "Easy",
+    "tags": [
+      "迴圈",
+      "數值運算",
+      "國中數學"
+    ],
+    "timestamp": "2026-04-03T13:59:51.091Z",
+    "title": "質數又來囉"
+  },
+  "a147": {
+    "difficulty": "Easy",
+    "tags": [
+      "迴圈",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-03T14:01:09.306Z",
+    "title": "Print it all"
+  },
+  "a148": {
+    "difficulty": "Easy",
+    "tags": [
+      "迴圈",
+      "數值運算",
+      "if-else"
+    ],
+    "timestamp": "2026-04-03T14:02:39.798Z",
+    "title": "You Cannot Pass?!"
+  },
+  "a149": {
+    "difficulty": "Easy",
+    "tags": [
+      "數值運算",
+      "迴圈"
+    ],
+    "timestamp": "2026-04-03T14:03:29.395Z",
+    "title": "乘乘樂"
+  },
+  "a215": {
+    "difficulty": "Easy",
+    "tags": [
+      "數值運算",
+      "迴圈",
+      "if-else"
+    ],
+    "timestamp": "2026-04-03T14:13:22.288Z",
+    "title": "明明愛數數"
+  },
+  "a216": {
+    "difficulty": "Medium",
+    "tags": [
+      "迴圈",
+      "數值運算",
+      "array1D",
+      "遞迴"
+    ],
+    "timestamp": "2026-04-03T14:19:10.776Z",
+    "title": "數數愛明明"
+  },
+  "a224": {
+    "difficulty": "Medium",
+    "tags": [
+      "字串處理",
+      "迴圈",
+      "if-else"
+    ],
+    "timestamp": "2026-04-03T14:22:14.753Z",
+    "title": "明明愛明明"
+  },
+  "a225": {
+    "difficulty": "Medium",
+    "tags": [
+      "排序",
+      "array1D",
+      "迴圈"
+    ],
+    "timestamp": "2026-04-03T14:24:30.574Z",
+    "title": "明明愛排列"
+  },
+  "a229": {
+    "difficulty": "Medium",
+    "tags": [
+      "遞迴",
+      "迴圈",
+      "字串處理"
+    ],
+    "timestamp": "2026-04-03T14:25:42.061Z",
+    "title": "括號匹配問題"
+  },
+  "a244": {
+    "difficulty": "Easy",
+    "tags": [
+      "數值運算",
+      "迴圈"
+    ],
+    "timestamp": "2026-04-03T14:26:14.554Z",
+    "title": "新手訓練 ~ for + if"
+  },
+  "a248": {
+    "difficulty": "Medium",
+    "tags": [
+      "array1D",
+      "迴圈",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-03T14:30:43.628Z",
+    "title": "新手訓練 ~ 陣列應用"
+  },
+  "a271": {
+    "difficulty": "Medium",
+    "tags": [
+      "array1D",
+      "迴圈",
+      "數值運算",
+      "if-else"
+    ],
+    "timestamp": "2026-04-03T14:51:47.606Z",
+    "title": "彩色蘿蔔"
+  },
+  "b294": {
+    "difficulty": "Easy",
+    "tags": [
+      "迴圈",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-05T03:32:30.461Z",
+    "title": "經濟大恐荒"
+  },
+  "b860": {
+    "difficulty": "Easy",
+    "tags": [
+      "迴圈",
+      "if-else"
+    ],
+    "timestamp": "2026-04-05T03:33:55.264Z",
+    "title": "獨角蟲進化計算器"
+  },
+  "b877": {
+    "difficulty": "Easy",
+    "tags": [
+      "數值運算",
+      "輸入輸出"
+    ],
+    "timestamp": "2026-04-05T03:34:16.925Z",
+    "title": "我是電視迷"
+  },
+  "b968": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出"
+    ],
+    "timestamp": "2026-04-05T03:34:33.600Z",
+    "title": "K-I-S-S-I-N-G"
+  },
+  "b969": {
+    "difficulty": "Easy",
+    "tags": [
+      "迴圈",
+      "輸入輸出"
+    ],
+    "timestamp": "2026-04-05T03:34:48.570Z",
+    "title": "hello, everyone"
+  },
+  "b970": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出",
+      "迴圈"
+    ],
+    "timestamp": "2026-04-05T03:36:30.092Z",
+    "title": "我不說髒話 (續)"
+  },
+  "b971": {
+    "difficulty": "Easy",
+    "tags": [
+      "迴圈",
+      "輸入輸出",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-05T03:10:30.224Z",
+    "title": "等差數列"
+  },
+  "c185": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出"
+    ],
+    "timestamp": "2026-04-05T03:38:43.470Z",
+    "title": "Hey Jude"
+  },
+  "c186": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出",
+      "迴圈"
+    ],
+    "timestamp": "2026-04-05T03:38:57.833Z",
+    "title": "蝸牛老師的點名單"
+  },
+  "c381": {
+    "difficulty": "Medium",
+    "tags": [
+      "迴圈",
+      "字串處理"
+    ],
+    "timestamp": "2026-04-05T03:40:24.875Z",
+    "title": "聖經密碼"
+  },
+  "c382": {
+    "difficulty": "Medium",
+    "tags": [
+      "輸入輸出",
+      "字串處理",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-05T03:40:43.271Z",
+    "title": "加減乘除"
+  },
+  "c659": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出",
+      "迴圈"
+    ],
+    "timestamp": "2026-04-05T03:53:29.128Z",
+    "title": "連接詞"
+  },
+  "c717": {
+    "difficulty": "Easy",
+    "tags": [
+      "迴圈",
+      "輸入輸出"
+    ],
+    "timestamp": "2026-04-05T05:59:24.274Z",
+    "title": "You can say that again!"
+  },
+  "c760": {
+    "difficulty": "Medium",
+    "tags": [
+      "輸入輸出",
+      "迴圈",
+      "字串處理"
+    ],
+    "timestamp": "2026-04-05T05:59:06.900Z",
+    "title": "蝸牛老師的點名單 (懶憜篇)"
+  },
+  "c929": {
+    "difficulty": "Medium",
+    "tags": [
+      "輸入輸出",
+      "迴圈",
+      "字串處理"
+    ],
+    "timestamp": "2026-04-05T05:58:36.873Z",
+    "title": "蝸牛老師的點名單-續"
+  },
+  "d049": {
+    "difficulty": "Easy",
+    "tags": [
+      "數值運算"
+    ],
+    "timestamp": "2026-04-05T05:58:14.586Z",
+    "title": "中華民國萬歲！"
+  },
+  "d050": {
+    "difficulty": "Easy",
+    "tags": [
+      "數值運算",
+      "if-else"
+    ],
+    "timestamp": "2026-04-05T05:57:57.060Z",
+    "title": "妳那裡現在幾點了？"
+  },
+  "d051": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-05T05:57:37.781Z",
+    "title": "糟糕，我發燒了！"
+  },
+  "d058": {
+    "difficulty": "Easy",
+    "tags": [
+      "if-else",
+      "輸入輸出"
+    ],
+    "timestamp": "2026-04-05T05:57:14.315Z",
+    "title": "BASIC 的 SGN 函數"
+  },
+  "d060": {
+    "difficulty": "Easy",
+    "tags": [
+      "if-else",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-05T05:56:40.855Z",
+    "title": "還要等多久啊？"
+  },
+  "d063": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出",
+      "if-else"
+    ],
+    "timestamp": "2026-04-05T05:55:15.033Z",
+    "title": "0 與 1"
+  },
+  "d064": {
+    "difficulty": "Easy",
+    "tags": [
+      "if-else",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-05T05:54:57.917Z",
+    "title": "ㄑㄧˊ 數？"
+  },
+  "d065": {
+    "difficulty": "Easy",
+    "tags": [
+      "if-else",
+      "輸入輸出",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-05T05:54:44.982Z",
+    "title": "三人行必有我師 (1 行版)"
+  },
+  "d066": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出",
+      "if-else"
+    ],
+    "timestamp": "2026-04-05T05:54:26.770Z",
+    "title": "上學去吧！"
+  },
+  "d068": {
+    "difficulty": "Easy",
+    "tags": [
+      "迴圈",
+      "if-else",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-05T05:53:58.149Z",
+    "title": "該減肥了！"
+  },
+  "p012": {
+    "difficulty": "Medium",
+    "tags": [
+      "迴圈",
+      "array1D",
+      "if-else",
+      "堆疊Stack",
+      "二分搜"
+    ],
+    "timestamp": "2026-04-05T03:08:08.128Z",
+    "title": "收集盒子"
+  }
+}
