@@ -577,6 +577,180 @@
     "timestamp": "2026-04-05T05:53:58.149Z",
     "title": "該減肥了！"
   },
+  "d073": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-14T11:10:06.223Z",
+    "title": "分組報告"
+  },
+  "d074": {
+    "difficulty": "Medium",
+    "tags": [
+      "迴圈",
+      "array1D"
+    ],
+    "timestamp": "2026-04-14T11:12:51.830Z",
+    "title": "電腦教室"
+  },
+  "d460": {
+    "difficulty": "Easy",
+    "tags": [
+      "if-else",
+      "輸入輸出"
+    ],
+    "timestamp": "2026-04-14T11:13:23.924Z",
+    "title": "山六九之旅"
+  },
+  "d485": {
+    "difficulty": "Easy",
+    "tags": [
+      "if-else",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-14T11:14:44.194Z",
+    "title": "我愛偶數"
+  },
+  "d498": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出",
+      "迴圈"
+    ],
+    "timestamp": "2026-04-14T11:15:09.850Z",
+    "title": "我不說髒話"
+  },
+  "d507": {
+    "difficulty": "Easy",
+    "tags": [
+      "if-else",
+      "輸入輸出",
+      "數值運算",
+      "國中數學"
+    ],
+    "timestamp": "2026-04-14T11:15:44.342Z",
+    "title": "三角形的判斷"
+  },
+  "d511": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出",
+      "迴圈",
+      "數值運算",
+      "國中數學",
+      "if-else"
+    ],
+    "timestamp": "2026-04-14T11:22:15.384Z",
+    "title": "小明的作業"
+  },
+  "d532": {
+    "difficulty": "Easy",
+    "tags": [
+      "數值運算",
+      "迴圈"
+    ],
+    "timestamp": "2026-04-14T11:24:06.374Z",
+    "title": "文文的求婚 (三)"
+  },
+  "d570": {
+    "difficulty": "Easy",
+    "tags": [
+      "迴圈",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-14T11:26:02.786Z",
+    "title": "神龍見首不見尾"
+  },
+  "d827": {
+    "difficulty": "Easy",
+    "tags": [
+      "數值運算",
+      "輸入輸出"
+    ],
+    "timestamp": "2026-04-14T11:31:59.279Z",
+    "title": "買鉛筆"
+  },
+  "e051": {
+    "difficulty": "Medium",
+    "tags": [
+      "迴圈",
+      "字串處理"
+    ],
+    "timestamp": "2026-04-14T11:32:53.087Z",
+    "title": "文意字彙"
+  },
+  "e456": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出",
+      "迴圈"
+    ],
+    "timestamp": "2026-04-14T11:33:20.813Z",
+    "title": "Ten little Indians"
+  },
+  "e484": {
+    "difficulty": "Easy",
+    "tags": [
+      "迴圈",
+      "數值運算",
+      "國中數學"
+    ],
+    "timestamp": "2026-04-14T11:34:25.075Z",
+    "title": "我是優質學生"
+  },
+  "e598": {
+    "difficulty": "Medium",
+    "tags": [
+      "迴圈",
+      "數值運算",
+      "國中數學"
+    ],
+    "timestamp": "2026-04-14T11:35:17.777Z",
+    "title": "傑出校友表揚"
+  },
+  "e997": {
+    "difficulty": "Medium",
+    "tags": [
+      "array1D",
+      "迴圈",
+      "輸入輸出",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-14T11:38:49.299Z",
+    "title": "升旗典禮抽背課文"
+  },
+  "f017": {
+    "difficulty": "Medium",
+    "tags": [
+      "迴圈",
+      "字串處理",
+      "array1D"
+    ],
+    "timestamp": "2026-04-14T11:43:38.859Z",
+    "title": "把單字拼出來"
+  },
+  "f047": {
+    "difficulty": "Medium",
+    "tags": [
+      "array1D",
+      "輸入輸出",
+      "迴圈"
+    ],
+    "timestamp": "2026-04-14T11:46:53.046Z",
+    "title": "三路縱隊"
+  },
+  "f073": {
+    "difficulty": "Medium",
+    "tags": [
+      "輸入輸出",
+      "迴圈",
+      "array1D"
+    ],
+    "timestamp": "2026-04-14T11:52:36.283Z",
+    "title": "切牌"
+  },
   "p012": {
     "difficulty": "Medium",
     "tags": [
