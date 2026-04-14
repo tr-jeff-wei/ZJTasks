@@ -75,7 +75,7 @@
       "level": "beginner"
     },
     {
-      "id": "if_else",
+      "id": "if-else",
       "label": "if/else 控制流程",
       "group": "basic",
       "difficulty": 0,
@@ -612,7 +612,7 @@
     },
     {
       "from": "basic_ops",
-      "to": "if_else",
+      "to": "if-else",
       "relation": "contains"
     },
     {
