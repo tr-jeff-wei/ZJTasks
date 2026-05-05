@@ -570,11 +570,10 @@
   "d068": {
     "difficulty": "Easy",
     "tags": [
-      "迴圈",
       "if-else",
       "數值運算"
     ],
-    "timestamp": "2026-04-05T05:53:58.149Z",
+    "timestamp": "2026-05-01T11:55:01.166Z",
     "title": "該減肥了！"
   },
   "d073": {
@@ -750,6 +749,113 @@
     ],
     "timestamp": "2026-04-14T11:52:36.283Z",
     "title": "切牌"
+  },
+  "f103": {
+    "difficulty": "Medium",
+    "tags": [
+      "輸入輸出",
+      "迴圈",
+      "array1D"
+    ],
+    "timestamp": "2026-04-19T08:26:19.230Z",
+    "title": "切牌 (n 行版)"
+  },
+  "f152": {
+    "difficulty": "Medium",
+    "tags": [
+      "迴圈",
+      "array1D",
+      "數值運算",
+      "國中數學"
+    ],
+    "timestamp": "2026-04-19T08:28:37.671Z",
+    "title": "棒棒糖事件 (之未雨綢繆)"
+  },
+  "f165": {
+    "difficulty": "Easy",
+    "tags": [
+      "輸入輸出",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-19T08:27:19.154Z",
+    "title": "棒棒糖事件"
+  },
+  "f291": {
+    "difficulty": "Medium",
+    "tags": [
+      "數值運算",
+      "迴圈",
+      "字串處理"
+    ],
+    "timestamp": "2026-04-19T08:36:00.439Z",
+    "title": "試算表大小"
+  },
+  "f327": {
+    "difficulty": "Medium",
+    "tags": [
+      "迴圈",
+      "數值運算",
+      "字串處理"
+    ],
+    "timestamp": "2026-04-19T08:37:34.106Z",
+    "title": "刪除欄位"
+  },
+  "f348": {
+    "difficulty": "Medium",
+    "tags": [
+      "數值運算",
+      "字串處理",
+      "迴圈"
+    ],
+    "timestamp": "2026-04-19T08:41:00.169Z",
+    "title": "完全偶數"
+  },
+  "f351": {
+    "difficulty": "Medium",
+    "tags": [
+      "迴圈",
+      "字串處理"
+    ],
+    "timestamp": "2026-04-19T08:41:42.685Z",
+    "title": "接觸不良的空白鍵"
+  },
+  "f376": {
+    "difficulty": "Medium",
+    "tags": [
+      "迴圈",
+      "array1D",
+      "數值運算"
+    ],
+    "timestamp": "2026-04-19T08:44:13.434Z",
+    "title": "芝麻街的團購"
+  },
+  "f408": {
+    "difficulty": "Medium",
+    "tags": [
+      "迴圈",
+      "array1D"
+    ],
+    "timestamp": "2026-04-19T08:45:30.766Z",
+    "title": "迷你蘋菓鎮"
+  },
+  "f410": {
+    "difficulty": "Medium",
+    "tags": [
+      "迴圈",
+      "if-else",
+      "array1D"
+    ],
+    "timestamp": "2026-04-19T08:46:22.757Z",
+    "title": "芝麻街的郵件投遞"
+  },
+  "f418": {
+    "difficulty": "Medium",
+    "tags": [
+      "array2D",
+      "迴圈"
+    ],
+    "timestamp": "2026-04-19T08:47:08.423Z",
+    "title": "Word Search Puzzle"
   },
   "p012": {
     "difficulty": "Medium",
